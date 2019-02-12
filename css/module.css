@@ -1,0 +1,50 @@
+
+    .box {
+        width: 480px;
+        height: 125px;
+        text-align: center ;
+        vertical-align: middle;
+        background-color: blue;
+        border: 1px solid black;
+        padding: 55px 0;
+    }
+
+    .list {
+        width: 240px;
+        height: 250px;
+        float: left;
+        text-align: center ;
+        background-color: blueviolet;
+        border: 1px solid black;
+        padding: 115px 0;
+    }
+
+
+@media screen and (min-width: 768px){
+    .position {
+        margin-left: 200px;
+    }
+
+
+    .box {
+        width: 380px;
+        height: 200px;
+        float: left;
+        text-align: center ;
+        vertical-align: middle;
+        background-color: blue;
+        border: 1px solid black;
+        padding: 90px 0;
+    }
+
+    .list {
+        width: 190px;
+        height: 250px;
+        float: left;
+        text-align: center ;
+        background-color: blueviolet;
+        border: 1px solid black;
+        padding: 120px 0;
+    }
+}
+
