@@ -3,18 +3,13 @@
     box-sizing: border-box;
     }
 
-@media screen and (min-width: 960px){
-    html, body {
-        height: 100%;
-    }
-    
-    html {
-        display: table;
-        margin: auto;
-    }
-    
-    body {
-        display: table-cell;
-        vertical-align: middle;
-    }
+*{
+    box-sizing: border-box;
 }
+
+body {
+    font-weight: bold;
+    text-align: center;
+    margin: 0px auto;
+}
+       
